@@ -17,6 +17,8 @@ class RecipesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentRecipesBinding.inflate(inflater,  container, false)
+         binding.shimmerFrameLayout.showShimmer(true)
+
         return binding.root
     }
 
